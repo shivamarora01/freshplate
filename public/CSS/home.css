@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', sans-serif;
+}
+.container_main{
+    width: auto;
+}
+.nav{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color:white;
+}
+.logo{
+    display: inline;
+    width: 34px;
+    height: 49px;
+    fill:#19cbfc;
+    margin-top: 20px;
+    margin-left: 50px;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+    backface-visibility: visible;
+    transform: translateZ(0);
+    text-decoration: none;
+}
+.logo:hover{
+    -ms-transform: scale(1.05);
+    transform: scale(1.25)
+}
+
+
+
+.nav_text{
+    width: 85%;
+    height: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.other{
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #3d4152;
+}
+.other:hover{
+    color: #19cbfc;
+}
+.location{
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.location_text{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 10px;
+    color: black;
+}
+.down_arrow{
+    position: relative;
+    width: 2%;
+    height: 30%;
+    color: black;
+    margin-right: 180px;
+}
+.down_arrow:hover{
+    fill: #19cbfc;
+}
+.Search{
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 30px;
+    color: black;
+}
+.Search_logo:hover{
+    fill:#19cbfc
+}
+.Search_text{
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    background-color: transparent;
+    text-decoration-style: none;
+}
+.Search_text:hover{
+    color: #19cbfc;
+}
+
+
+
+.section-1{
+    width: 100%;
+    height: 340px;
+    background-color: #171a29;
+    margin-top: 80px;
+    padding-left: 1px;
+    padding-top: 40px;
+}
+.block01{
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+    backface-visibility: visible;
+    transform: translateZ(0);
+    display: inline-block;
+    width:250px;
+    height:250px;
+    margin-left: 50px;
+}
+.block01:hover{
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+
+.section-3{
+    width: 100%;
+    height: 1000;
+    padding-left: 10px;
+}
+.res_num{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.2;
+}
+.blocks{
+    display: inline-block;
+    width: 295px;
+    height: 350px;
+    border: 1px solid white;
+    padding-left: 25px;
+    margin:2px 5px 30px 5px;
+}
+.blocks:hover{
+    display: inline-block;
+    border: 0.25px solid #3d4152;
+    box-shadow: 0.3px 0.3px 3px #3d4152 ;
+}
+
+.block_img{
+    width: 254px;
+    height: 160px;
+    padding-top:18px ;
+}
+.block_title{
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-all;
+    color: black;
+    text-align: left;
+}
+.block_sub_title{
+    color: #686b78;
+    font-size: 13px;
+    font-weight: 500;
+    word-break:10px;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.rating{
+    width: 40px;
+    height: 20px;
+    background-color:#48c479;
+    color: white;
+    padding-left: 5px;
+    font-size:13px;
+    font-weight: 600;
+    display: inline-block;
+}
+.delivery_time{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.per_head{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+.quickview{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+
+.profile_name{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.profile_email{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.profile_phone{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.profile{
+    width: 350px;
+    height: 250px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.Pay{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+}

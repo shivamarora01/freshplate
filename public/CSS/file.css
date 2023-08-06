@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', sans-serif;
+}
+.container{
+    width:1200px;
+}
+
+#section-1{
+    width: 100%;
+    height: 540px;
+}
+
+#subsection-1{
+    display: inline-block;
+    position: absolute;
+    /* top: calc(50%+80px ); */
+    padding-top: 65px;
+    padding-left: 35px;
+    height: 540px;
+    width: 60%;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+}
+.login{
+    display: inline-block;
+    color: #000;
+    margin-top: 19px;
+    margin-left: 56%;
+    font-size: 16px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+.login:hover{
+    color: #196cfc;
+}
+
+/* after clicking login */
+.login_pop{
+    width: 434px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+.close{
+    
+    margin-top: 40px;
+    margin-left: 25px;
+    content: "\E913";
+}
+.text_login{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 40px;
+    margin-left: 25px;
+    color:#282c3f;
+}
+.text_or{
+    font-size: 13px;
+    font-weight: 700px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.text_createaccount{
+    color:#196cfc;
+    font-size: 13px;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.login_phone{
+    margin-left: 25px;
+    
+    width: 80%;
+    height: 12%;
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 500;
+    margin-top: 30px;
+    align-items:normal;
+    padding-left: 20px;
+}
+.notvalid{
+    margin-left: 25px;
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+}
+.login_loginbutton{
+    width: 80%;
+    height: 10%;
+    background-color: #196cfc;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: block;     
+    text-align: center;
+    padding-top: 15px;
+}
+.open_popup{
+    width: 434px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1;
+    visibility: visible;
+}
+.close_popup{
+    visibility: hidden;
+}
+.signup{
+    display: inline-block;
+    width: 101px;
+    height: 30px; 
+    padding: 10 0px 0px 10px;  
+    color: white;
+    background-color: #000;
+    font-size: 16px;
+    align-content: center;
+    font-weight: 600;
+}
+.signup:hover{
+    color: white;
+    background-color: #196cfc;
+}
+.signup_phone{
+    margin-left: 25px;
+    width: 80%;
+    height: 12%;
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: 500;
+    margin-top: 10px;
+    align-items:normal;
+    padding-left: 20px;
+}
+.dyntext{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .45px;
+    margin-top: 70px;
+}
+.sub_dyntext{
+    color: #686b78;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.location_box{
+    margin-top: 40px;
+    width: 100%;
+    height: 58px;
+}
+.inputtext{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    font-size: 17px;
+    color:#686b78;
+    font-weight: 540;
+    padding-left: 15px;
+    letter-spacing: .45px;
+}
+button{
+    
+    background-color: transparent;
+    border:none;
+}
+.locate_me{
+    display: inline-block;
+    position: absolute;
+    color:#686b78;
+    margin-left: -160px;
+    margin-top: 17px;
+    width: 160px;
+    height: 40px;
+}
+.locate_metext{
+    position: absolute;
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+    color:#686b78;
+    margin-top: -16px;
+    
+}
+.location_img{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: -20px ;
+}
+.findfood{
+    display: inline-block;
+    position: absolute;
+    width: 120px;
+    height:39px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #196cfc;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -1px;
+}
+.pop_cities{
+    color:#a9abb2;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.list{
+    list-style: none;
+    width: 70%;
+}
+.sublist{
+    display: inline;
+}
+.sublist_cities{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    margin-top: 30px;
+    color: #686b78;
+    margin-right: 5px;
+    line-height: 23px;
+}
+.sublist:nth-child(2n) .sublist_cities{
+    color:#a9abb2;
+}
+#subsection-2{
+    display: inline-block;
+    position: relative;
+    /* top: calc(50%+80px ); */
+    margin-left: 56%;
+    height: 540px;
+    width: 580px;
+}
+#section-2{
+    background-color: #2b1e16;
+    height: 400px;
+    width: 100%;
+    padding-left: 50px;
+    
+    }
+.img_block{
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    margin-right: 130px;
+    text-align: center;
+}
+.img_blocktext1{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    margin-top: 50px;
+}
+.img_blocktext2{
+    font-size: 15px;
+    color: #e0cbc1;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+#section-3{
+    background-color:white;
+    width: 1300px;
+    height: 550px;
+    padding-left: 60px;
+}
+.section-3title{
+    width:300 ;
+    height:80 ;
+    font-size: 40px;
+    font-weight: 600;
+    color:black;
+    line-height: 45px;
+    padding-top: 150px;
+    letter-spacing: -.45px;
+}
+.section-3text{
+    width:400;
+    height:128 ;
+    font-size: 20px;
+    font-weight: 400;
+    color:#7e808c;
+    margin-top: 40px;
+    line-height: 25px;
+}
+.mobile1{
+    position: absolute;
+    width: 384px;
+    height: 489px;
+    margin-top: -400px;
+    margin-left: 500px;
+}
+.mobile2{
+    position: absolute;
+    width: 384px;
+    height: 489px;
+    margin-top: -340px;
+    margin-left: 840px;
+}
+.apps{
+    position: absolute;
+    margin-top: -40px;
+}
